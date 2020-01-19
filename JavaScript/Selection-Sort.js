@@ -15,11 +15,12 @@ function main(){
 function selectionSort(arr){
     let n = arr.length
     if(n == 0) return;
+
     let min = arr[0]
 
-
     for (i = 0; i < n-1; i++){
-        min_index = i;
+        if(arr[i] < min)
+            min = arr[i]
 
 
 
