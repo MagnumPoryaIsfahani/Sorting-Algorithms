@@ -1,4 +1,4 @@
-const MAX_ARR_SIZE = 10;
+const MAX_ARR_SIZE = 100;
 
 main();
 
